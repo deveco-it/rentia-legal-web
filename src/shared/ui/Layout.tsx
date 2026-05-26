@@ -50,10 +50,7 @@ export function Layout() {
 
       <footer className="border-t border-white/5 bg-rentia-ink-950/60">
         <div className="mx-auto flex w-full max-w-5xl flex-col gap-2 px-6 py-8 text-sm text-rentia-slate-300 sm:flex-row sm:items-center sm:justify-between">
-          <p>
-            © {new Date().getFullYear()} Rentia · Operado por{' '}
-            <span className="text-rentia-cloud">Deveco IT</span>
-          </p>
+          <p>© {new Date().getFullYear()} Rentia</p>
           <p className="text-xs">
             <Link to="/terms" className="hover:text-rentia-teal">
               Términos
