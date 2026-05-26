@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rentia · Redirigiendo…</title>
+    <script>
+      // SPA fallback para hosts estáticos (GitHub Pages, Cloudflare Pages...).
+      // Guardamos la URL que el usuario pidió y redirigimos a la raíz; index.html
+      // recupera el valor de sessionStorage y restaura la ruta en el cliente.
+      sessionStorage.redirect = location.href;
+      location.replace('/');
+    </script>
+  </head>
+  <body>
+    <noscript>
+      Necesitas JavaScript habilitado para ver esta página. Visita
+      <a href="/">la página principal</a>.
+    </noscript>
+  </body>
+</html>
