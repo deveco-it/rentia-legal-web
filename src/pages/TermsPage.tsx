@@ -14,11 +14,10 @@ export function TermsPage() {
       <p>
         Bienvenido/a a <strong>Rentia</strong>. Los presentes Términos y Condiciones (en adelante,
         los “<strong>Términos</strong>”) regulan el acceso y uso de la aplicación móvil Rentia (la
-        “<strong>Aplicación</strong>” o el “<strong>Servicio</strong>”), titularidad de{' '}
-        <TodoBadge>RAZÓN SOCIAL COMPLETA</TodoBadge>, con CIF{' '}
-        <TodoBadge>CIF</TodoBadge>, domicilio social en{' '}
-        <TodoBadge>DIRECCIÓN COMPLETA</TodoBadge>, inscrita en{' '}
-        <TodoBadge>DATOS DEL REGISTRO MERCANTIL</TodoBadge> (en adelante, “
+        “<strong>Aplicación</strong>” o el “<strong>Servicio</strong>”), titularidad de RHENIUM
+        STRATEGIC SOLUTIONS, S.L., con CIF B21763297, domicilio social en Vía Ibérica 2, 6A, 50009
+        Zaragoza, Zaragoza (España), inscrita en{' '}
+        <TodoBadge>datos del Registro Mercantil</TodoBadge> (en adelante, “
         <strong>Rentia</strong>” o el “<strong>Titular</strong>”).
       </p>
       <p>
@@ -57,22 +56,24 @@ export function TermsPage() {
 
       <SectionHeading id="objeto" number={3} title="Objeto y descripción del Servicio" />
       <p>
-        Rentia es una aplicación que permite al Cliente{' '}
-        <TodoBadge>DESCRIPCIÓN PRECISA DEL SERVICIO</TodoBadge> consultar el estado de los
+        Rentia es una herramienta tecnológica de agregación y seguimiento de inversiones
+        contratadas a través de terceros, sin prestar servicios de intermediación financiera ni
+        asesoramiento en materia de inversión. Permite al Cliente consultar el estado de los
         productos financieros que tiene contratados, visualizar movimientos, posiciones y la
         actividad asociada a su cartera, así como comunicarse con su asesor.
       </p>
       <p>
         <strong>
           Rentia no constituye en sí mismo un servicio de asesoramiento financiero ni de inversión
-          regulado.
+          regulado en el sentido de la normativa MiFID II.
         </strong>{' '}
         La información mostrada tiene carácter meramente informativo y no debe interpretarse como
-        recomendación personalizada de inversión.{' '}
-        <TodoBadge>
-          Revisar con abogado: alcance regulatorio, eventual condición de agente vinculado o
-          comercializador, advertencias CNMV, advertencias MiFID II
-        </TodoBadge>
+        una recomendación personalizada de inversión. Rentia actúa como una herramienta tecnológica
+        de agregación, visualización y seguimiento de inversiones realizadas por el Cliente a través
+        de terceros, sin intervenir en la contratación, ejecución o comercialización de instrumentos
+        financieros, ni en la recepción o transmisión de órdenes, ni en la gestión discrecional de
+        carteras. En ningún caso Rentia actúa como entidad financiera, agente vinculado,
+        intermediario financiero ni comercializador de productos de inversión.
       </p>
 
       <SectionHeading id="registro" number={4} title="Registro y cuenta de Usuario" />
@@ -147,10 +148,21 @@ export function TermsPage() {
         </li>
       </ul>
       <p>
-        <TodoBadge>
-          Revisar con abogado: redacción de disclaimers obligatorios para una app financiera —
-          riesgo de pérdida, rentabilidades pasadas, ausencia de garantía
-        </TodoBadge>
+        La información mostrada en la Aplicación tiene carácter exclusivamente informativo y no
+        constituye asesoramiento financiero, recomendación de inversión ni garantía de rentabilidad
+        futura.
+      </p>
+      <p>
+        Toda inversión implica riesgos, incluida la posible pérdida parcial o total del capital
+        invertido. Las rentabilidades pasadas no garantizan resultados futuros y los valores pueden
+        fluctuar significativamente. El Usuario es el único responsable de las decisiones de
+        inversión que adopte basándose en la información disponible en la Aplicación.
+      </p>
+      <p>
+        Rentia no garantiza la exactitud, integridad o actualización permanente de la información
+        financiera proporcionada por terceros, ni la disponibilidad continua e ininterrumpida del
+        Servicio. Se recomienda al Usuario realizar su propia evaluación y, en su caso, consultar
+        con un asesor financiero independiente antes de invertir.
       </p>
 
       <SectionHeading id="suspension" number={8} title="Suspensión y baja" />
@@ -176,7 +188,7 @@ export function TermsPage() {
       <p>
         Estos Términos se rigen por la legislación española. Para la resolución de cualquier
         controversia derivada de los mismos, las partes se someten a los Juzgados y Tribunales
-        competentes de <TodoBadge>CIUDAD / PROVINCIA</TodoBadge>, sin perjuicio de los derechos que
+        competentes de Zaragoza, sin perjuicio de los derechos que
         la normativa de consumidores reconozca al Usuario para acudir al fuero de su domicilio.
       </p>
 
@@ -184,7 +196,7 @@ export function TermsPage() {
       <p>
         Para cualquier consulta relacionada con estos Términos puedes contactar con nosotros a
         través de la página de <Link to="/support">Soporte</Link> o escribiendo a{' '}
-        <TodoBadge>email@rentia.app</TodoBadge>.
+        <TodoBadge>email de contacto (pendiente)</TodoBadge>.
       </p>
     </LegalDocument>
   );

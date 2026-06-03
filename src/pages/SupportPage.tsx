@@ -54,11 +54,11 @@ export function SupportPage() {
             </p>
             <p className="mt-4 text-sm">
               <span className="text-rentia-slate-300">Correo:</span>{' '}
-              <TodoBadge>soporte@rentia.app</TodoBadge>
+              <TodoBadge>email de contacto (pendiente)</TodoBadge>
             </p>
             <p className="mt-1 text-sm">
               <span className="text-rentia-slate-300">Horario:</span>{' '}
-              <TodoBadge>L-V 9:00 a 18:00 (CET)</TodoBadge>
+              <span className="text-rentia-cloud">L-V 9:00 a 18:00 (CET)</span>
             </p>
           </div>
 
@@ -70,11 +70,7 @@ export function SupportPage() {
             </p>
             <p className="mt-4 text-sm">
               <span className="text-rentia-slate-300">Correo:</span>{' '}
-              <TodoBadge>privacidad@rentia.app</TodoBadge>
-            </p>
-            <p className="mt-1 text-sm">
-              <span className="text-rentia-slate-300">DPO:</span>{' '}
-              <TodoBadge>nombre del DPO si procede</TodoBadge>
+              <TodoBadge>email de contacto (pendiente)</TodoBadge>
             </p>
           </div>
         </section>

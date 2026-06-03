@@ -22,20 +22,17 @@ export function PrivacyPage() {
       <SectionHeading id="responsable" number={1} title="Responsable del tratamiento" />
       <ul>
         <li>
-          <strong>Titular</strong>: <TodoBadge>RAZÓN SOCIAL</TodoBadge>
+          <strong>Titular</strong>: RHENIUM STRATEGIC SOLUTIONS, S.L.
         </li>
         <li>
-          <strong>CIF</strong>: <TodoBadge>CIF</TodoBadge>
+          <strong>CIF</strong>: B21763297
         </li>
         <li>
-          <strong>Domicilio social</strong>: <TodoBadge>DIRECCIÓN COMPLETA</TodoBadge>
+          <strong>Domicilio social</strong>: Vía Ibérica 2, 6A, 50009 Zaragoza, Zaragoza (España)
         </li>
         <li>
-          <strong>Email de contacto</strong>: <TodoBadge>privacidad@rentia.app</TodoBadge>
-        </li>
-        <li>
-          <strong>Delegado de Protección de Datos (DPO)</strong>:{' '}
-          <TodoBadge>nombre y email del DPO si ha sido designado</TodoBadge>
+          <strong>Email de contacto</strong>:{' '}
+          <TodoBadge>email de contacto (pendiente)</TodoBadge>
         </li>
       </ul>
 
@@ -95,10 +92,9 @@ export function PrivacyPage() {
       <SectionHeading id="conservacion" number={4} title="Plazos de conservación" />
       <p>
         Los datos se conservarán mientras la cuenta esté activa. Tras la baja, los datos
-        identificativos y operativos se mantendrán bloqueados durante el plazo necesario para
-        atender posibles responsabilidades legales, contractuales o fiscales{' '}
-        <TodoBadge>confirmar plazo concreto: típicamente 6 años por normativa mercantil</TodoBadge>,
-        tras lo cual serán suprimidos de forma segura.
+        identificativos y operativos se mantendrán bloqueados durante un plazo de cuatro (4) años
+        para atender posibles responsabilidades legales, contractuales o fiscales, tras lo cual
+        serán suprimidos de forma segura.
       </p>
 
       <SectionHeading
@@ -114,7 +110,8 @@ export function PrivacyPage() {
       <ul>
         <li>
           <strong>Supabase</strong> — Proveedor de la base de datos, autenticación y
-          almacenamiento. Tratamiento ubicado fuera del Espacio Económico Europeo (ver sección 6).
+          almacenamiento. Los datos se alojan en servidores ubicados en la Unión Europea (ver
+          sección 6).
         </li>
         <li>
           <strong>Expo / EAS</strong> — Plataforma de distribución y, en su caso, envío de
@@ -123,12 +120,6 @@ export function PrivacyPage() {
         <li>
           <strong>Google Play y App Store</strong> — Tiendas de aplicaciones a través de las cuales
           se distribuye la Aplicación. Su tratamiento se rige por sus propias políticas.
-        </li>
-        <li>
-          <TodoBadge>
-            Añadir cualquier otro encargado utilizado: analítica (PostHog, Sentry...), email
-            transaccional, hosting de esta web legal, etc.
-          </TodoBadge>
         </li>
       </ul>
       <p>
@@ -142,15 +133,20 @@ export function PrivacyPage() {
         title="Transferencias internacionales de datos"
       />
       <p>
-        Algunos de nuestros proveedores (en particular, <strong>Supabase</strong>) pueden tratar
-        datos en servidores ubicados fuera del Espacio Económico Europeo, incluyendo los Estados
-        Unidos de América. Estas transferencias se realizan al amparo de las{' '}
-        <strong>Cláusulas Contractuales Tipo</strong> aprobadas por la Comisión Europea, así como
-        de las medidas adicionales de seguridad técnica y organizativa que ofrezcan garantías
-        adecuadas conforme al artículo 46 del RGPD.{' '}
-        <TodoBadge>
-          Revisar región concreta del proyecto Supabase y mecanismo de transferencia vigente
-        </TodoBadge>
+        Los datos gestionados a través de <strong>Supabase</strong> (base de datos, autenticación y
+        almacenamiento) se alojan en servidores ubicados en la <strong>Unión Europea</strong>, por
+        lo que su tratamiento se realiza dentro del Espacio Económico Europeo y no implica una
+        transferencia internacional de datos.
+      </p>
+      <p>
+        No obstante, algunos proveedores que intervienen en la prestación del Servicio —como las
+        plataformas de distribución y notificaciones (Expo / EAS), las tiendas de aplicaciones
+        (Google Play y App Store) o el acceso de soporte de sus matrices tecnológicas— pueden estar
+        establecidos fuera del Espacio Económico Europeo, incluidos los Estados Unidos. En tales
+        casos, las transferencias se amparan en una <strong>decisión de adecuación</strong> de la
+        Comisión Europea (incluido el <em>EU-US Data Privacy Framework</em>) conforme al artículo 45
+        del RGPD o, en su defecto, en las <strong>Cláusulas Contractuales Tipo</strong> y medidas
+        adicionales de garantía conforme al artículo 46 del RGPD.
       </p>
 
       <SectionHeading id="derechos" number={7} title="Tus derechos" />
@@ -173,7 +169,7 @@ export function PrivacyPage() {
       </ul>
       <p>
         Puedes ejercer estos derechos enviando un correo a{' '}
-        <TodoBadge>privacidad@rentia.app</TodoBadge> indicando el derecho que deseas ejercer y
+        <TodoBadge>email de contacto (pendiente)</TodoBadge> indicando el derecho que deseas ejercer y
         acompañando copia de un documento que acredite tu identidad. También podrás contactarnos a
         través de la página de <Link to="/support">Soporte</Link>.
       </p>
@@ -193,11 +189,7 @@ export function PrivacyPage() {
       <p>
         La Aplicación móvil no utiliza cookies en el sentido de la normativa web, pero sí emplea
         identificadores técnicos del dispositivo y almacenamiento seguro local necesarios para el
-        funcionamiento del Servicio (gestión de sesión, preferencias).{' '}
-        <TodoBadge>
-          Si esta web legal incorpora analítica en el futuro, completar con la política de cookies
-          web correspondiente
-        </TodoBadge>
+        funcionamiento del Servicio (gestión de sesión, preferencias).
       </p>
 
       <SectionHeading id="cambios" number={10} title="Cambios en esta política" />
@@ -211,7 +203,7 @@ export function PrivacyPage() {
       <SectionHeading id="contacto" number={11} title="Contacto" />
       <p>
         Para cualquier cuestión relacionada con tus datos personales o con esta Política, escribe
-        a <TodoBadge>privacidad@rentia.app</TodoBadge> o visita la página de{' '}
+        a <TodoBadge>email de contacto (pendiente)</TodoBadge> o visita la página de{' '}
         <Link to="/support">Soporte</Link>.
       </p>
     </LegalDocument>
