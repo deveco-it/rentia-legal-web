@@ -2,14 +2,13 @@ import { Link } from 'react-router-dom';
 
 import { LegalDocument } from '@/shared/ui/LegalDocument';
 import { SectionHeading } from '@/shared/ui/SectionHeading';
-import { TodoBadge } from '@/shared/ui/TodoBadge';
 
 export function PrivacyPage() {
   return (
     <LegalDocument
       title="Política de Privacidad"
       description="Información sobre el tratamiento de datos personales en la aplicación Rentia, conforme al RGPD y la LOPDGDD."
-      lastUpdated="TODO: fecha de publicación"
+      lastUpdated="3 de junio de 2026"
     >
       <p>
         En Rentia nos tomamos muy en serio la privacidad de las personas usuarias. Esta Política
@@ -33,7 +32,7 @@ export function PrivacyPage() {
         </li>
         <li>
           <strong>Email de contacto</strong>:{' '}
-          <TodoBadge>email de contacto (pendiente)</TodoBadge>
+          <a href="mailto:contacto@rentia.club">contacto@rentia.club</a>
         </li>
       </ul>
 
@@ -170,7 +169,7 @@ export function PrivacyPage() {
       </ul>
       <p>
         Puedes ejercer estos derechos enviando un correo a{' '}
-        <TodoBadge>email de contacto (pendiente)</TodoBadge> indicando el derecho que deseas ejercer y
+        <a href="mailto:contacto@rentia.club">contacto@rentia.club</a> indicando el derecho que deseas ejercer y
         acompañando copia de un documento que acredite tu identidad. También podrás contactarnos a
         través de la página de <Link to="/support">Soporte</Link>.
       </p>
@@ -204,7 +203,7 @@ export function PrivacyPage() {
       <SectionHeading id="contacto" number={11} title="Contacto" />
       <p>
         Para cualquier cuestión relacionada con tus datos personales o con esta Política, escribe
-        a <TodoBadge>email de contacto (pendiente)</TodoBadge> o visita la página de{' '}
+        a <a href="mailto:contacto@rentia.club">contacto@rentia.club</a> o visita la página de{' '}
         <Link to="/support">Soporte</Link>.
       </p>
     </LegalDocument>

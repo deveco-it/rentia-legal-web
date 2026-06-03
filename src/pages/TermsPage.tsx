@@ -2,14 +2,13 @@ import { Link } from 'react-router-dom';
 
 import { LegalDocument } from '@/shared/ui/LegalDocument';
 import { SectionHeading } from '@/shared/ui/SectionHeading';
-import { TodoBadge } from '@/shared/ui/TodoBadge';
 
 export function TermsPage() {
   return (
     <LegalDocument
       title="Términos y Condiciones de uso"
       description="Términos y Condiciones que rigen el uso de la aplicación móvil Rentia."
-      lastUpdated="TODO: fecha de publicación"
+      lastUpdated="3 de junio de 2026"
     >
       <p>
         Bienvenido/a a <strong>Rentia</strong>. Los presentes Términos y Condiciones (en adelante,
@@ -196,7 +195,7 @@ export function TermsPage() {
       <p>
         Para cualquier consulta relacionada con estos Términos puedes contactar con nosotros a
         través de la página de <Link to="/support">Soporte</Link> o escribiendo a{' '}
-        <TodoBadge>email de contacto (pendiente)</TodoBadge>.
+        <a href="mailto:contacto@rentia.club">contacto@rentia.club</a>.
       </p>
     </LegalDocument>
   );

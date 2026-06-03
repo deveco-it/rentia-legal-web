@@ -1,7 +1,5 @@
 import { Link } from 'react-router-dom';
 
-import { TodoBadge } from '@/shared/ui/TodoBadge';
-
 const faqs = [
   {
     question: 'He olvidado mi contraseña, ¿qué hago?',
@@ -54,7 +52,9 @@ export function SupportPage() {
             </p>
             <p className="mt-4 text-sm">
               <span className="text-rentia-slate-300">Correo:</span>{' '}
-              <TodoBadge>email de contacto (pendiente)</TodoBadge>
+              <a href="mailto:contacto@rentia.club" className="text-rentia-teal hover:underline">
+                contacto@rentia.club
+              </a>
             </p>
             <p className="mt-1 text-sm">
               <span className="text-rentia-slate-300">Horario:</span>{' '}
@@ -70,7 +70,9 @@ export function SupportPage() {
             </p>
             <p className="mt-4 text-sm">
               <span className="text-rentia-slate-300">Correo:</span>{' '}
-              <TodoBadge>email de contacto (pendiente)</TodoBadge>
+              <a href="mailto:contacto@rentia.club" className="text-rentia-teal hover:underline">
+                contacto@rentia.club
+              </a>
             </p>
           </div>
         </section>
