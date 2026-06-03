@@ -28,7 +28,8 @@ export function PrivacyPage() {
           <strong>CIF</strong>: B21763297
         </li>
         <li>
-          <strong>Domicilio social</strong>: Vía Ibérica 2, 6A, 50009 Zaragoza, Zaragoza (España)
+          <strong>Domicilio social</strong>: Vía Ibérica 2, Bl. 2, Esc. 2, 6º A, 50009 Zaragoza,
+          Zaragoza (España)
         </li>
         <li>
           <strong>Email de contacto</strong>:{' '}

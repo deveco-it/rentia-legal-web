@@ -15,10 +15,10 @@ export function TermsPage() {
         Bienvenido/a a <strong>Rentia</strong>. Los presentes Términos y Condiciones (en adelante,
         los “<strong>Términos</strong>”) regulan el acceso y uso de la aplicación móvil Rentia (la
         “<strong>Aplicación</strong>” o el “<strong>Servicio</strong>”), titularidad de RHENIUM
-        STRATEGIC SOLUTIONS, S.L., con CIF B21763297, domicilio social en Vía Ibérica 2, 6A, 50009
-        Zaragoza, Zaragoza (España), inscrita en{' '}
-        <TodoBadge>datos del Registro Mercantil</TodoBadge> (en adelante, “
-        <strong>Rentia</strong>” o el “<strong>Titular</strong>”).
+        STRATEGIC SOLUTIONS, S.L., con CIF B21763297, domicilio social en Vía Ibérica 2, Bl. 2, Esc.
+        2, 6º A, 50009 Zaragoza, Zaragoza (España), inscrita en el Registro Mercantil de Zaragoza,
+        Hoja Z-75989,
+        Inscripción 1ª (en adelante, “<strong>Rentia</strong>” o el “<strong>Titular</strong>”).
       </p>
       <p>
         El uso de la Aplicación implica la aceptación expresa y sin reservas de estos Términos. Si
